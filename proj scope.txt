@@ -1,4 +1,4 @@
-we are building A soft, immersive spa world where you learn linear algebra → tensor analysis → tensor calculus.
+we are building A soft, immersive SAPPHIC spa world where you learn linear algebra → tensor analysis → tensor calculus.
 
 Gentle, non-intimidating visualizations and text instead of scary math jargon.
 
@@ -83,3 +83,19 @@ Connections and Derivatives	Play with Christoffel animations
 Metric Towel	Stretch grids and observe distance distortion
 Geodesics Spa	Find paths of least effort
 Pushforward/Pullback Dance	Pull objects through spaces and feel transformations
+
+
+
+
+we build reusable componets for the concepts 
+we have each visualization as a component 
+we will havea math component that will be used in each page 
+we have a page for each topic 
+ALL styles are speerate from main code 
+we have all buttons as thier individual components
+we have a intro component it will be used in each page / topic 
+EVERYTHING IS TO BE IN SECTIONS FULL MODULAR CODEBASE 
+
+
+each section will cover all the math related to the subject
+there will be hundreds of visualizations and hundreds of formula and solutions 

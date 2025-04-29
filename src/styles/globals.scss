@@ -1,0 +1,37 @@
+:root {
+  --sapphic-primary: #ff69b4;    /* Hot Pink */
+  --sapphic-secondary: #ff1493;  /* Deep Pink */
+  --sapphic-accent: #db7093;     /* Pale Violet Red */
+  --sapphic-light: #fff0f5;      /* Lavender Blush */
+  --sapphic-dark: #4a1a2c;       /* Dark Purple */
+  --sapphic-gradient: linear-gradient(135deg, #ff69b4, #ff1493);
+  --sapphic-bg: #fff0f5;         /* Lavender Blush */
+  --sapphic-text: #4a1a2c;       /* Dark Purple */
+  --sapphic-hover: #ffb6c1;      /* Light Pink */
+  --sapphic-border: #ff69b4;     /* Hot Pink */
+}
+
+body {
+  background: linear-gradient(135deg, #fff0f5, #ffb6c1, #ff69b4);
+  color: var(--sapphic-text);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} 
