@@ -1,0 +1,85 @@
+we are building A soft, immersive spa world where you learn linear algebra → tensor analysis → tensor calculus.
+
+Gentle, non-intimidating visualizations and text instead of scary math jargon.
+
+📚 Educational Content Scope (MVP)
+
+Phase 1: Linear Algebra (Core Basics)
+(Get people soaked in vectors and matrices before tensors)
+
+    Scalars (quick intro)
+
+    Vectors (components, addition, scaling)
+
+    Dot Product (and angle intuition)
+
+    Matrices (as linear maps)
+
+    Matrix multiplication (visually)
+
+    Eigenvectors + Eigenvalues (soft intro, optional in MVP)
+
+Phase 2: Tensors (Lite Touch for MVP)
+
+    What is a tensor (beyond matrices)
+
+    Basic operations: reshaping, contracting
+
+    Tensor ranks (basic intuition)
+
+    Very gentle visualization of how tensors transform spaces
+
+🧘‍♀️ Educational Content (Phase 3)
+Major Area	Concepts Introduced
+Tensor Fields	Understanding tensors assigned to each point of a space
+Covariant Derivative	How vectors and tensors change when you "move" through space
+Metric Tensor   how distances and angles are measured
+Christoffel Symbols	The "massage therapists" of spacetime: connections that tell you how things bend
+Geodesics	Path of maximum relaxation: curves that feel "straight" in a curved space
+Pullback / Pushforward	How functions "pull" or "push" tensor fields across spaces
+
+🎨 Visual / Interactive Features (Phase 3)
+
+    Tactile field visualization:
+    See tensor fields "flow" across surfaces as ripples and stretching textures.
+
+    Drag a particle through space:
+    Watch how its attached vector or tensor "twists" based on the connection (Christoffel symbols animate underneath softly like water currents).
+
+    Metric Field Stretch:
+    Animate a "spa towel" (grid) being stretched and compressed differently at different points in space.
+
+    Smooth Geodesic Path Drawer:
+    Let the user touch two points, and the app animates the "straightest" path between them under the current metric.
+
+🛠️ Technical Stack (Phase 3)
+Category	Tech
+Visuals	Likely WebGL (using three.js or regl.js) OR Canvas 2D (lite version first)
+Math Engine	Expand math utilities — symbolic derivations, automatic Christoffel computation
+State Management	zustand (fine), possibly bring in recoil or something heavier if needed for complex scene graph
+Motion Library	Framer Motion (for soft transitions), possibly GSAP (GreenSock) if crazy animations needed
+Future Expand	Possibly integrate with Rust (WebAssembly) backend later if simulations get heavy
+
+🌸 Phase 3 Feel
+
+Imagine this:
+
+    You trace your finger across a softly glowing manifold.
+
+    A little trail of gold-thread vectors spin and dance as you pass.
+
+    Space itself ripples under your touch.
+
+    Christoffel flows weave under your path like underwater currents.
+
+    You are learning the deep mechanics of curved spacetime
+    without ever being scared, without ever feeling lost—
+    because it feels like soaking deeper into a warm mathematical ocean.
+
+🧩 Page Layouts (Phase 3)
+Page	Purpose
+Tensor Fields	Introduce moving fields — live, tactile
+Connections and Derivatives	Play with Christoffel animations
+Metric Towel	Stretch grids and observe distance distortion
+Geodesics Spa	Find paths of least effort
+Pushforward/Pullback Dance	Pull objects through spaces and feel transformations
